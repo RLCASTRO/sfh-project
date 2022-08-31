@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* padding: 20px; */
+    margin: 0;
+}
+
+/* ####### TOP NAV ######## */
+.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #2a5196;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
+    /* sticky navbar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 12px 18px rgba(0, 0, 0, 0.5);
+}
+
+.navTitle {
+    margin-left: auto;
+    margin-right: auto;
+    color: white
+}
+
+.navTitle h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* ##### CONTAINER ##### */
+.container {
+    padding: 20px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* ##### HEADER ##### */
+.page-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+
+}
+
+
+/* ##### ARTICLE ##### */
+article {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentTitle {
+    font-size: 25px;
+}
+
+.contentTitle h1 {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.articleTitle {
+    color: #3b6135;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.articleTitle h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.articleDate p {
+    margin: 0;
+}
+
+.articleSummary h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+
+}
+
+.articleSummary p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+/* ##### SIDEPANEL ##### */
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #2a5196;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #ccc;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    /* background-color: #111; */
+    color: white;
+    /* padding: 10px 15px; */
+    border: none;
+}
+
+/* .openbtn:hover {
+    background-color: #29237e;
+} */
+
+
+
+
+
+
+
+
+/* ##### MEDIA QUERIES ##### */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+
+    .contentTitle h1 {
+        margin-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+    }
+
+    .articleContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .centered {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .contentTitle hr {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        max-width: 60%;
+    }
+
+    .contentTitle hr {
+        visibility: hidden;
+    }
+}
