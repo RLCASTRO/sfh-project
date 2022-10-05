@@ -36,7 +36,7 @@
     <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">Home</a>
-        <a href="#">Book Trip</a>
+        <a href="book.php">Book Trip</a>
         <a href="#">Admin Login</a>
     </div>
 <!-- MAIN CONTENT -->
