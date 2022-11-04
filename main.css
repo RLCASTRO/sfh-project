@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* padding: 20px; */
     margin: 0;
+    font-size: 17px;
 }
 
 /* ####### TOP NAV ######## */
@@ -201,6 +202,11 @@ article {
 
 .container-form {
     padding-top: 0;
+}
+
+.alladventureslink {
+    color: black;
+    font-size: 25px;
 }
 
 form {
