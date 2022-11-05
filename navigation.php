@@ -17,4 +17,5 @@
         <a href='index.php'>Home</a>
         <a href='book.php'>Book Trip</a>
         <a href='admin-add.php'>Admin Login</a>
+        <a href='all-adventures.php'>Admin All Adventures</a>
     </div>
