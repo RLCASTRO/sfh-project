@@ -26,7 +26,7 @@
                 <input type="text" id="heading" name="heading" class="">
                 <br>
                 <label for="tripdate">Trip Date:</label>
-                <input type="text" id="tripdate" name="tripdate" class="">
+                <input type="date" id="tripdate" name="tripdate" class="">
                 <br>
                 <label for="duration">Duration:</label>
                 <input type="text" id="duration" name="duration" class="">

@@ -1,5 +1,3 @@
-<?php 
-echo"
     <!-- NAVBAR  -->
     <nav class='topnav'>
         <div>
@@ -18,9 +16,5 @@ echo"
         <a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>
         <a href='index.php'>Home</a>
         <a href='book.php'>Book Trip</a>
-        <a href='#'>Admin Login</a>
+        <a href='admin-add.php'>Admin Login</a>
     </div>
-
-"
-
-?>
